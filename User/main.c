@@ -51,16 +51,64 @@ GPIOC->ODR = 0x00000000;
 		
 	}
 }
+void TurnPC13Light()
+{
+	RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOC, ENABLE);
+	GPIO_InitTypeDef initStruct;
+	initStruct.GPIO_Mode = GPIO_Mode_Out_PP;
+	initStruct.GPIO_Pin = GPIO_Pin_13;
+	initStruct.GPIO_Speed = GPIO_Speed_50MHz;
 
+	GPIO_Init(GPIOC,&initStruct);
+	//GPIO_SetBits(GPIOC,GPIO_Pin_13);
+   GPIO_ResetBits(GPIOC,GPIO_Pin_13);
+}
+
+void TurnPA0Light()
+{
+	RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOA, ENABLE);
+	GPIO_InitTypeDef initStruct;
+	initStruct.GPIO_Mode = GPIO_Mode_Out_PP;
+	initStruct.GPIO_Pin = GPIO_Pin_0;
+	initStruct.GPIO_Speed = GPIO_Speed_50MHz;
+
+	GPIO_Init(GPIOA,&initStruct);
+	//GPIO_ResetBits(GPIOA,GPIO_Pin_0);
+	
+
+		//GPIO_SetBits(GPIOA,GPIO_Pin_0);
+	    while(1)
+    {
+			GPIO_WriteBit(GPIOA,GPIO_Pin_0,Bit_RESET);
+	        Delay(2000000); // 延时等待
+			GPIO_WriteBit(GPIOA,GPIO_Pin_0,Bit_SET);
+           Delay(1000000); // 延时等待 		
+    }
+}
+
+void TurnPB13Ring()
+{
+	RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOB, ENABLE);
+	GPIO_InitTypeDef initStruct;
+	initStruct.GPIO_Mode = GPIO_Mode_Out_PP;
+	initStruct.GPIO_Pin = GPIO_Pin_All;
+	initStruct.GPIO_Speed = GPIO_Speed_50MHz;
+
+	GPIO_Init(GPIOB,&initStruct);
+	    while(1)
+    {
+			GPIO_WriteBit(GPIOB,GPIO_Pin_13,Bit_RESET);
+	        Delay(2000000); // 延时等待
+			GPIO_WriteBit(GPIOB,GPIO_Pin_13,Bit_SET);
+           Delay(9000000); // 延时等待 		
+    }
+
+}
 
 
 int main (void)
 {
-	RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOA, ENABLE);
-	GPIO_Init()
-
-    while(1)
-    {
-     
-    }
+	//TurnPA0Light();
+	//TurnPC13Light();
+	//TurnPB13Ring();
 }

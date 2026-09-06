@@ -1,21 +1,5 @@
 Dependencies for Project 'porject', Target 'Target_1': (DO NOT MODIFY !)
 CompilerVersion: 6240000::V6.24::ARMCLANG
-F (.\User\main.c)(0x6A998B78)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./StdPeriph_Driver -I User-I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IE:/stm32/program/Arm/Packs/ARM/CMSIS/6.2.0/CMSIS/Core/Include-IE:/stm32/program/Arm/Packs/Keil/STM32F1xx_DFP/2.2.0/Device/Include-D__UVISION_VERSION="543" -DSTM32F10X_MD -D_RTE_ -DUSE_STDPERIPH_DRIVER-o ./objects/main.o -MMD)
-I (E:\stm32\program\Arm\Packs\Keil\STM32F1xx_DFP\2.2.0\Device\Include\stm32f10x.h)(0x6A94482B)
-I (E:\stm32\program\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\core_cm3.h)(0x6A959CB4)
-I (E:\stm32\program\Arm\Packs\Keil\STM32F1xx_DFP\2.2.0\Device\Include\system_stm32f10x.h)(0x6A94482B)
-I (User\stm32f10x_conf.h)(0x6A94482C)
-I (RTE\_Target_1\RTE_Components.h)(0x6A982083)
-I (StdPeriph_Driver\stm32f10x_rcc.h)(0x6A94482B)
-F (.\User\stm32f10x_conf.h)(0x6A94482C)()
-F (.\User\stm32f10x_it.c)(0x6A94482C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./StdPeriph_Driver -I User-I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IE:/stm32/program/Arm/Packs/ARM/CMSIS/6.2.0/CMSIS/Core/Include-IE:/stm32/program/Arm/Packs/Keil/STM32F1xx_DFP/2.2.0/Device/Include-D__UVISION_VERSION="543" -DSTM32F10X_MD -D_RTE_ -DUSE_STDPERIPH_DRIVER-o ./objects/stm32f10x_it.o -MMD)
-I (User\stm32f10x_it.h)(0x6A94482C)
-I (E:\stm32\program\Arm\Packs\Keil\STM32F1xx_DFP\2.2.0\Device\Include\stm32f10x.h)(0x6A94482B)
-I (E:\stm32\program\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\core_cm3.h)(0x6A959CB4)
-I (E:\stm32\program\Arm\Packs\Keil\STM32F1xx_DFP\2.2.0\Device\Include\system_stm32f10x.h)(0x6A94482B)
-I (User\stm32f10x_conf.h)(0x6A94482C)
-I (RTE\_Target_1\RTE_Components.h)(0x6A982083)
-F (.\User\stm32f10x_it.h)(0x6A94482C)()
 F (.\StdPeriph_Driver\misc.c)(0x6A998C16)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./StdPeriph_Driver -I User-I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IE:/stm32/program/Arm/Packs/ARM/CMSIS/6.2.0/CMSIS/Core/Include-IE:/stm32/program/Arm/Packs/Keil/STM32F1xx_DFP/2.2.0/Device/Include-D__UVISION_VERSION="543" -DSTM32F10X_MD -D_RTE_ -DUSE_STDPERIPH_DRIVER-o ./objects/misc.o -MMD)
 I (StdPeriph_Driver\misc.h)(0x6A94482B)
 I (E:\stm32\program\Arm\Packs\Keil\STM32F1xx_DFP\2.2.0\Device\Include\stm32f10x.h)(0x6A94482B)
@@ -215,6 +199,23 @@ I (User\stm32f10x_conf.h)(0x6A94482C)
 I (RTE\_Target_1\RTE_Components.h)(0x6A982083)
 I (StdPeriph_Driver\stm32f10x_rcc.h)(0x6A94482B)
 F (.\StdPeriph_Driver\stm32f10x_wwdg.h)(0x6A94482B)()
+F (.\User\main.c)(0x6A9D7817)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./StdPeriph_Driver -I User-I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IE:/stm32/program/Arm/Packs/ARM/CMSIS/6.2.0/CMSIS/Core/Include-IE:/stm32/program/Arm/Packs/Keil/STM32F1xx_DFP/2.2.0/Device/Include-D__UVISION_VERSION="543" -DSTM32F10X_MD -D_RTE_ -DUSE_STDPERIPH_DRIVER-o ./objects/main.o -MMD)
+I (E:\stm32\program\Arm\Packs\Keil\STM32F1xx_DFP\2.2.0\Device\Include\stm32f10x.h)(0x6A94482B)
+I (E:\stm32\program\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\core_cm3.h)(0x6A959CB4)
+I (E:\stm32\program\Arm\Packs\Keil\STM32F1xx_DFP\2.2.0\Device\Include\system_stm32f10x.h)(0x6A94482B)
+I (User\stm32f10x_conf.h)(0x6A94482C)
+I (RTE\_Target_1\RTE_Components.h)(0x6A982083)
+I (StdPeriph_Driver\stm32f10x_rcc.h)(0x6A94482B)
+I (StdPeriph_Driver\stm32f10x_gpio.h)(0x6A94482B)
+F (.\User\stm32f10x_conf.h)(0x6A94482C)()
+F (.\User\stm32f10x_it.c)(0x6A94482C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./StdPeriph_Driver -I User-I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IE:/stm32/program/Arm/Packs/ARM/CMSIS/6.2.0/CMSIS/Core/Include-IE:/stm32/program/Arm/Packs/Keil/STM32F1xx_DFP/2.2.0/Device/Include-D__UVISION_VERSION="543" -DSTM32F10X_MD -D_RTE_ -DUSE_STDPERIPH_DRIVER-o ./objects/stm32f10x_it.o -MMD)
+I (User\stm32f10x_it.h)(0x6A94482C)
+I (E:\stm32\program\Arm\Packs\Keil\STM32F1xx_DFP\2.2.0\Device\Include\stm32f10x.h)(0x6A94482B)
+I (E:\stm32\program\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\core_cm3.h)(0x6A959CB4)
+I (E:\stm32\program\Arm\Packs\Keil\STM32F1xx_DFP\2.2.0\Device\Include\system_stm32f10x.h)(0x6A94482B)
+I (User\stm32f10x_conf.h)(0x6A94482C)
+I (RTE\_Target_1\RTE_Components.h)(0x6A982083)
+F (.\User\stm32f10x_it.h)(0x6A94482C)()
 F (RTE/Device/STM32F103C8/RTE_Device.h)(0x6A94482C)()
 F (RTE/Device/STM32F103C8/startup_stm32f10x_md.s)(0x6A94482B)(--target=arm-arm-none-eabi -mcpu=cortex-m3 -masm=auto  -Wa,armasm,--diag_suppress=A1950W -c-gdwarf-4-I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IE:/stm32/program/Arm/Packs/ARM/CMSIS/6.2.0/CMSIS/Core/Include-IE:/stm32/program/Arm/Packs/Keil/STM32F1xx_DFP/2.2.0/Device/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 543" -Wa,armasm,--pd,"STM32F10X_MD SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o ./objects/startup_stm32f10x_md.o)
 F (RTE/Device/STM32F103C8/system_stm32f10x.c)(0x6A94482B)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./StdPeriph_Driver -I User-I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IE:/stm32/program/Arm/Packs/ARM/CMSIS/6.2.0/CMSIS/Core/Include-IE:/stm32/program/Arm/Packs/Keil/STM32F1xx_DFP/2.2.0/Device/Include-D__UVISION_VERSION="543" -DSTM32F10X_MD -D_RTE_ -DUSE_STDPERIPH_DRIVER-o ./objects/system_stm32f10x.o -MMD)
